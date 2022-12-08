@@ -1,0 +1,91 @@
+/* GENERAL -------------------- */
+body {
+  background-color: #7359dc;
+}
+
+h1 {
+  font-family: "Roboto, sans serif";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+  text-align: center;
+  padding: 60px;
+}
+
+/* FORMULAIRE DE CONTACT */
+
+.forms {
+  background-color: #e5e5e5;
+  width: 500px;
+  height: 696px;
+  margin: 110px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+#firstname {
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  width: 420px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+#lastname {
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  width: 420px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+#email {
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  width: 420px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+#subject {
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  width: 420px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+#message {
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.submit {
+  background-color: #7359dc;
+  color: white;
+  font-family: "Roboto,sans-serif";
+  font-size: 22px;
+  width: 420px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
