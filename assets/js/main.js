@@ -38,5 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (error) {
       console.log(error);
     }
+
+    document.querySelector("div").classList.remove("hidden");
   });
 });
