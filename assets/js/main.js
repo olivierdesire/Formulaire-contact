@@ -35,10 +35,25 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       );
       console.log("response >>>>", response.data);
+
+      firstname.value = "";
+      lastname.value = "";
+      email.value = "";
+      subject.value = "";
+      message.value = "";
+
+      console.log(
+        "data after >>>",
+        firstname.value,
+        lastname.value,
+        email.value,
+        subject.value,
+        message.value
+      );
+
+      document.querySelector(".sent").classList.remove("hidden");
     } catch (error) {
       console.log(error);
     }
-
-    document.querySelector("div").classList.remove("hidden");
   });
 });
