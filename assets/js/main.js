@@ -9,29 +9,29 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     console.log("submit");
 
-    const firstname = document.querySelector("#firstname").value;
-    const lastname = document.querySelector("#lastname").value;
-    const email = document.querySelector("#email").value;
-    const subject = document.querySelector("#subject").value;
-    const message = document.querySelector("#message").value;
+    const firstname = document.querySelector("#firstname");
+    const lastname = document.querySelector("#lastname");
+    const email = document.querySelector("#email");
+    const subject = document.querySelector("#subject");
+    const message = document.querySelector("#message");
 
     console.log("data >>>", {
-      firstname,
-      lastname,
-      email,
-      subject,
-      message,
+      firstname: firstname.value,
+      lastname: lastname.value,
+      email: email.value,
+      subject: subject.value,
+      message: message.value,
     });
 
     try {
       const response = await axios.post(
         "https://site--backend-formulaire--97yqlpf4l44b.code.run/form",
         {
-          firstname,
-          lastname,
-          email,
-          subject,
-          message,
+          firstname: firstname.value,
+          lastname: lastname.value,
+          email: email.value,
+          subject: subject.value,
+          message: message.value,
         }
       );
       console.log("response >>>>", response.data);
