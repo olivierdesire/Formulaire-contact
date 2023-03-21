@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
       const response = await axios.post(
-        "https://site--backend-formulaire--97yqlpf4l44b.code.run/form",
+        "https://site--backends--97yqlpf4l44b.code.run/form",
         {
           firstname: firstname.value,
           lastname: lastname.value,
